@@ -1,3 +1,5 @@
+# Just a fork with a faster mirror, source took 40 min to download.
+
 # wkhtmltopdf Buildpack
 
 This is a [Heroku buildpack][0] for bundling a compatible [wkhtmltopdf][1]
@@ -17,7 +19,7 @@ the Ruby buildpack.
 ```bash
 $ heroku buildpacks:set 'https://github.com/heroku/heroku-buildpack-multi.git'
 $ echo 'https://github.com/heroku/heroku-buildpack-ruby.git' >> .buildpacks
-$ echo 'https://github.com/dscout/wkhtmltopdf-buildpack.git' >> .buildpacks
+$ echo 'https://github.com/reneweteling/wkhtmltopdf-buildpack.git' >> .buildpacks
 $ git add .buildpacks
 $ git commit -m 'Add multi-buildpack'
 ```
